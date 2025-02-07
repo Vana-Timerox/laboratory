@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1 class="form-title">Sign In</h1>
-        <form action="" method="POST">
+        <form action="user-account.php" method="POST">
             <div class="input-group">
                 <i class="fa-solid fa-envelope"></i>
                 <input type="email" name="email" id="email" required placeholder="Email">
@@ -32,6 +32,7 @@
                  <i class="fa-brands fa-facebook"></i>
                  <i class="fa-brands fa-google"></i>
             </div>
+            <br>
             <div class="link">
                 <p>Don't have Account yet?</p>
                 <a href="register.php">Sign Up</a>

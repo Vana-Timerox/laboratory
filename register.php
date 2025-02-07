@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1 class="form-title">Register</h1>
-        <form action="POST" action="">
+        <form action="POST" action="user-account.php">
             <div class="input-group">
                  <i class="fa-solid fa-user"></i>
                  <input type="text" name="name" id="name" placeholder="Name" required>
@@ -37,6 +37,7 @@
                  <i class="fa-brands fa-facebook"></i>
                  <i class="fa-brands fa-google"></i>
         </div>
+        <br>
         <div class="link">
             <p>Already have Account</p>
         </div>
